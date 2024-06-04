@@ -1,17 +1,41 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Л10В. Група 7</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    body {
+      background: linear-gradient(45deg, #0033cc, #009933, #ffff00, #FFFFFF);
+      background-size: 200% 200%;
+      animation: color 8s infinite;
+    }
+
+    @keyframes color {
+      0% {
+        background-position: 0 50%;
+      }
+      25% {
+        background-position: 100% 50%;
+      }
+      50% {
+        background-position: 0 50%;
+      }
+      100% {
+        background-position: 0 50%;
+      }
+    }
+  </style>
 </head>
 
 <body>
   <h1>Туристичний довідник</h1>
   <p>Туристичний об'єкт - Донецька область</p>
+  
   <script src="script.js"></script>
+<footer>
+    <p class="invisible">&copy; Авторське право Групи 7</p>
+</footer>
 </body>
-
 </html>
